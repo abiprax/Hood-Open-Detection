@@ -9,7 +9,7 @@ st.set_page_config(page_title="Hood Open Detection", page_icon="", layout="wide"
 st.title(" Hood Open Detection")
 
 # Load model (path hidden from UI)
-MODEL_PATH = r"D:\MotoLite Phillipines\New Number plate detection\Hood Open New Model 11l.pt"
+MODEL_PATH = r"D:\Motolite\New Number plate detection\streamlit app\Hood Detection\Hood Open New Model 11l.pt"
 
 @st.cache_resource(show_spinner="Loading model...")
 def load_model():
